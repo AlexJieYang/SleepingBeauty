@@ -1,0 +1,29 @@
+{
+  "papers": {
+    "required_columns": [
+      "PaperID",
+      "Year",
+      "Fieldname",
+      "SB_T",
+      "SB_B",
+      "type_Concave",
+      "type_Immediacy",
+      "Citation_Count",
+      "Patent_Count",
+      "Reference_Count",
+      "Team_Size",
+      "Institution_Count",
+      "Hit_1pct",
+      "Disruption",
+      "Atyp_Median_Z"
+    ],
+    "description": "Processed paper metrics. Indicator variables are 0/1; publication years in this analysis are 1900–1999."
+  },
+  "nobel_papers": {
+    "required_columns": [
+      "paperid",
+      "Field"
+    ],
+    "description": "Unique Nobel focal paper IDs and fields."
+  }
+}
