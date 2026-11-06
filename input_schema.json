@@ -8,6 +8,8 @@
       "SB_B",
       "type_Concave",
       "type_Immediacy",
+      "C5",
+      "C10",
       "Citation_Count",
       "Patent_Count",
       "Reference_Count",
@@ -17,7 +19,7 @@
       "Disruption",
       "Atyp_Median_Z"
     ],
-    "description": "Processed paper metrics. Indicator variables are 0/1; publication years in this analysis are 1900–1999."
+    "description": "Processed paper metrics. Indicator variables are 0/1; publication years in this analysis are 1900–1999. C5 and C10 contain the 5-year and 10-year citation counts used in Figure 2."
   },
   "nobel_papers": {
     "required_columns": [

@@ -79,4 +79,4 @@ def percentile_column(frame, column):
 
 def positive_fraction(values):
     values = pd.Series(values).dropna()
-    return values.ne(0).mean() if len(values) else np.nan
+    return values.gt(0).mean() if len(values) else np.nan
